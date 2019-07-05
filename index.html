@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        document.querySelector('.menu-hamburger').onclick = () => {
+            if (document.querySelector('nav').classList.contains('.active')) {
+                document.querySelector('nav').classList.remove('active');
+            } else {
+                document.querySelector('nav').classList.add('active');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <img src="/img/spotify.svg" alt="Logo Spotify">
+
+        <img class="menu-hamburger" src="" alt="">
+
+        <div class="active">
+            <a href="">Premium</a>
+            <a href="">Ajuda</a>
+            <a href="">Baixar</a>
+            <a class="barra paip" href="">Inscrever-se</a>
+            <a class="barra" href="">Entrar</a>
+        </div>
+    </nav>
+    <header>
+    </header>
+</body>
+
+</html>
